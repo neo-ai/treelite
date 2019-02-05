@@ -19,6 +19,7 @@
 #define NOMINMAX
 #include <windows.h>
 #include <Shlwapi.h>
+#pragma comment(lib, "Shlwapi.lib")
 #else
 #include <unistd.h>
 #include <errno.h>
