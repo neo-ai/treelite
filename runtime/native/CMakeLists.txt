@@ -14,7 +14,6 @@ if(MSVC)
 endif()
 
 set_default_configuration_release()
-msvc_use_static_runtime()
 
 option(ENABLE_S3 "Build with S3 support" OFF)
 option(TEST_COVERAGE "C++ test coverage" OFF)
